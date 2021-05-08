@@ -1,0 +1,173 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    max-width: 100%;
+    height:auto;
+    background:linear-gradient(35deg, #e5e5f7, #e7d8e4);
+   
+}
+/* @media only screen and (max-width: 600px) {
+    body {
+        background:linear-gradient(35deg, #2d2ace, #db0eb2);
+        width:100%;
+    }
+  } */
+
+.nav-link
+{
+    text-decoration: none;
+}
+/* pricing part */
+.pricing
+{
+   margin-top: 5rem;;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   align-items: center;
+   flex-wrap: wrap;
+}
+.pricing div
+{
+    display: flex;
+    flex-direction: column;
+    width:30%;
+    border-color: teal;
+    border-style: solid;
+    border-radius: 0.5rem;
+    width:15vw;
+    height:20vw;
+    padding:1rem;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(174, 212, 171);
+    overflow: hidden;
+}
+.pricing h4
+{
+    background-color: lightslategray;
+}
+/* header decoration */
+#header
+{
+    position:fixed;
+    background-color: rgb(179, 241, 241);
+    width:100%;
+    left:0;
+    top:0;
+}
+#nav-bar {
+    display: flex;
+    flex-direction: coloumn;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0.8rem 0.5rem;
+    overflow: hidden;  
+ } 
+ul
+ {
+    list-style: none;
+    display: flex;
+ }
+ #nav-bar li
+ {
+    padding: 1rem 2rem;
+}
+#nav-bar ul li a{
+    color: teal;
+}
+/* container */
+.container
+{
+    
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-content: center; */
+    overflow: hidden;
+    margin-top: 15vh;
+    overflow: hidden;
+    
+}
+/* .main
+{
+    /* flex-grow: 1; 
+} */
+/* form center */
+.form
+{
+    text-align: center;
+    margin-top: 15vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+#email
+{
+    width:25vw;
+    padding:0.5rem;
+}
+#submit
+{
+    width:10vw;
+    padding:0.2rem;
+    background-color: yellowgreen;
+}
+.form div{
+    margin-top: 5vh;
+}
+.content{
+    margin-top:10vh;
+    display: flex;
+    flex-direction: column;
+}
+.content  div{
+display:flex;
+height: 25vh;
+width: 35vw;
+margin: auto;
+
+}
+.content div div{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer
+{
+    margin-top: 5vh;
+    background: cornsilk;
+    padding: 1rem;
+}
+.footer ul{
+    justify-content: center; 
+}
+.footer ul li a{
+    text-decoration: none;
+}
+.footer ul li
+{
+    padding: 0.5rem 1rem;
+}
+
+
+
+
+
+/* DecimalFormat df = new DecimalFormat("#.######");
+    System.out.println(df.format(plusp));
+    System.out.println(df.format(minusp));
+    System.out.println(df.format(zerop)); */
+  
+  /* TABLET AND SMARTPHONE */
+  @media (max-width: 800px) {
+ body {
+background-color: cornflowerblue;
+ };
+  
+
+  } 
+
